@@ -11,7 +11,7 @@ export default function Banner() {
                 </h1>
 
                 <p className={styles.paragrafo}>
-                    Boas vindas ao meu espaço pessoal! Eu sou Antônio Evaldo, instrutor de Front-end da Alura. Aqui compartilho vários conhecimentos, espero que aprenda algo novo :)
+                    Boas vindas ao meu Blog pessoal! Eu sou Gabriel Lobo, estudante de Análise e desenvolvimento de softwares. Aqui compartilho vários conhecimento que adquirir durante esse tempo, espero que possa ajudar em algo :)
                 </p>
             </div>
 
@@ -19,13 +19,14 @@ export default function Banner() {
                 <img
                     className={styles.circuloColorido}
                     src={circuloColorido}
+                    alt="circulo colorido"
                     aria-hidden={true}
                 />
 
                 <img
                     className={styles.minhaFoto}
                     src={minhaFoto}
-                    alt="Foto do Antônio Evaldo sorrindo"
+                    alt="Foto do Gabriel"
                 />
             </div>
         </div>
